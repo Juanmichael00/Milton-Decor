@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="https://image.flaticon.com/icons/png/512/34/34583.png">
+    <title>Milton Decor | Aqui você encontra o Puff do seus sonhos</title>
+    
+    <!--css bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!--css-->
+    <link rel="stylesheet" href="style.css">
+    <!--js bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+     <!--js Fontawesome-->
+    <script src="https://kit.fontawesome.com/995ce5eeea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav>
+    <div class="wrapper">
+      <div class="logo"><a href="#">Milton Decor</a></div>
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li>
+          <a href="#produto" class="desktop-item">Produtos</a>
+          <input type="checkbox" id="showDrop">
+          <label for="showDrop" class="mobile-item">Produtos</label>
+          <ul class="drop-menu">
+            <li><a href="#produto">Puffs</a></li>
+            <li><a href="#produto">Baús</a></li>
+            <li><a href="#produto">Mesas Centro</a></li>
+            <li><a href="#produto">Bancos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#servicos" class="desktop-item">Serviços</a>
+          <input type="checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">Serviços</label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="img/puff-menu.jpg" alt="">
+              </div>
+              <div class="row">
+                <header>Reforma:</header>
+                <ul class="mega-links">
+                  <li><a href="#">Puff</a></li>
+                  <li><a href="#">Baú</a></li>
+                  <li><a href="#">Mesa de Centro</a></li>
+                  <li><a href="#">Banco</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Estampas:</header>
+                <ul class="mega-links">
+                  <li><a href="#">Lisa</a></li>
+                  <li><a href="#">Infantil</a></li>
+                  <li><a href="#">Decorativa</a></li>
+                  <li><a href="#">Diversos</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Atendimento (Região)</header>
+                <ul class="mega-links">
+                  <li><a href="#">Belo Horizonte</a></li>
+                  <li><a href="#">Ribeirão das Neves</a></li>
+                  <li><a href="#">Contagem</a></li>
+                  <li><a href="#">Betim</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <label for="menu-btn" class="btn menu-tnb"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+
+  
+  <!-- home section start -->
+  <section class="home" id="home">
+    <div class="max-width">
+        <h1>Pensou em Decoração para sua casa ? <br>
+            Então nós da Milton Decor estamos aqui para te ajudar! <br>
+            Encontre o puff perfeito para deixar sua casa com um novo estilo<br> 
+            Existem tamanhos, formatos, cores e tecidos para combinar com o seu estilo de gosto</h1>
+  </section>
+    <!-- about section start -->
+    <section class="about" id="about">
+      <div class="max-width">
+          <h2 class="title">Sobre Nós</h2>
+          <div class="about-content">
+              <div class="column left">
+                  <img src="img/sobre-img.jpg" alt="Perfil">
+              </div>
+              <div class="column-right">
+                  <p class="text">
+                      Trabalhando há algum tempo com decoração de interiores <br> 
+                      Atualmente criando puffs, baús, bancos e mesas de centro <br>
+                      Um puff para sala pode ser uma adição incrível à decoração <br>
+                      Criação de modelos sofisticados, com tecidos, cores e tamanhos à seu critério!!!
+                  </p>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- about section end -->
+
+  <!-- produto section start -->
+  <section class="services" id="produto">
+    <div class="max-width">
+        <h2 class="title">Produtos</h2>
+        
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11" aria-label="Slide 12"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="12" aria-label="Slide 13"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="13" aria-label="Slide 14"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="14" aria-label="Slide 15"></button>
+            </div>
+            <div class="carousel-inner">
+              <div id="produto1" class="carousel-item active">
+                <img src="img/lista-puffs/1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div id="produto2" class="carousel-item">
+                <img src="img/lista-puffs/2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div id="produto3" class="carousel-item">
+                <img src="img/lista-puffs/3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+              <div id="produto4" class="carousel-item">
+                <img id="produto4" src="img/lista-puffs/4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+              <div id="produto5" class="carousel-item">
+                <img src="img/lista-puffs/5.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+              <div id="produto6" class="carousel-item">
+                <img src="img/lista-puffs/6.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+              <div id="produto7" class="carousel-item">
+                <img src="img/lista-puffs/7.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+              <div id="produto8" class="carousel-item">
+                <img src="img/lista-puffs/8.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+              <div id="produto9" class="carousel-item">
+                <img src="img/lista-puffs/9.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+              <div id="produto10" class="carousel-item">
+                <img src="img/lista-puffs/10.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+              <div id="produto11" class="carousel-item">
+                <img src="img/lista-puffs/11.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+              <div id="produto12" class="carousel-item">
+                <img src="img/lista-puffs/12.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+              <div id="produto13" class="carousel-item">
+                <img src="img/lista-puffs/13.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+              <div id="produto14" class="carousel-item">
+                <img src="img/lista-puffs/14.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+              <div id="produto15" class="carousel-item">
+                <img src="img/lista-puffs/15.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </div>
+</section>
+<!-- Produto section end -->
+
+
+<!-- Footer Start -->
+<div class="footer">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-lg-3 col-md-6">
+              <div class="footer-widget">
+                  <h2>Contato</h2>
+                  <div class="contact-info">
+                      <p><i class="fa fa-map-marker"></i>Belo Horizonte, MG</p>
+                      <p><i class="fa fa-envelope"></i>contato@miltondecor.com</p>
+                      <p><i class="fa fa-phone"></i>+55 (31) 97533-1181</p>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6">
+              <div class="footer-widget">
+                  <h2>Onde estamos</h2>
+                  <div class="contact-info">
+                      <div class="social">
+                          <a style="font-size: 20px;" href="#home"><i class="fab fa-facebook-f"></i></a>
+                          <a href="#home"><i class="fab fa-linkedin-in"></i></a>
+                          <a href="https://www.instagram.com/milton_decor/" target="_blank"><i class="fab fa-instagram"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+              <div class="footer-widget">
+                  <h2>Informações</h2>
+                  <ul>
+                      <li><a href="#about">Sobre</a></li>
+                      <li><a href="#">Política e Privacidade</a></li>
+                      <li><a href="#">Termos e Condições</a></li>
+                  </ul>
+              </div>
+          </div>
+
+      
+      <div class="row payment align-items-center">
+          <div class="col-md-6">
+              <div class="payment-method">
+                  <h2>Nós Aceitamos:</h2>
+                  <img src="img/payment-method.png" alt="Payment Method" />
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="payment-security">
+                  <h2>Assegurado por:</h2>
+                  <img src="img/godaddy.svg" alt="Payment Security" />
+                  <img src="img/norton.svg" alt="Payment Security" />
+                  <img src="img/ssl.svg" alt="Payment Security" />
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Footer End -->
+
+<!-- footer 2section start -->
+<footer class="footer-end">
+  <span>created by <a href="https://www.linkedin.com/in/juan-michael-2979a016a/" target="_blank">@JuanMichael</a> | 
+  <span class="far fa-copyright"></span> 2021 All rights reserved</span>
+</footer>
+<!-- footer 2section end -->
+
+</body>
+</html>
