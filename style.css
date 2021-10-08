@@ -9,6 +9,15 @@
   text-decoration: none;
 }
 
+/* Featured Product*/
+.section-header{
+
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
 html {
   scroll-behavior: smooth; 
 } 
@@ -438,7 +447,7 @@ section .title::after {
 .footer {
   position: relative;
   padding: 30px 0 0 0;
-  background: #fff;
+  background: #9370DB;
 }
 
 .footer .footer-widget {
@@ -484,7 +493,7 @@ section .title::after {
 }
 
 .footer .footer-widget ul li a:hover {
-  color: #9370DB;
+  color: #f6f2fd;
 }
 
 .footer .footer-widget ul li a:hover::before {
@@ -522,8 +531,8 @@ section .title::after {
 }
 
 .footer .social a:hover {
-  color: #9370DB;
-  border-color: #9370DB;
+  color: #f6f2fd;
+  border-color: #f6f2fd;
 }
 
 .footer .payment {
@@ -585,7 +594,7 @@ footer {
 }
 
 footer span a {
-  color: #9370DB;
+  color: #f6f2fd;
   text-decoration: none;
 }
 
